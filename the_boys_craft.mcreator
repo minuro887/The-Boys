@@ -22,8 +22,8 @@
       "registry_name": "comp_injection",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_boys_craft/models/item/comp_injection.json",
-          "src/main/java/net/mcreator/theboyscraft/item/CompInjectionItem.java"
+          "src/main/java/net/mcreator/theboyscraft/item/CompInjectionItem.java",
+          "src/main/resources/assets/the_boys_craft/models/item/comp_injection.json"
         ]
       },
       "path": "~/Items"
@@ -36,11 +36,70 @@
       "registry_name": "temp_injection",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/theboyscraft/item/TempInjectionItem.java",
-          "src/main/resources/assets/the_boys_craft/models/item/temp_injection.json"
+          "src/main/resources/assets/the_boys_craft/models/item/temp_injection.json",
+          "src/main/java/net/mcreator/theboyscraft/item/TempInjectionItem.java"
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "TheBoysCraft",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_boys_craft",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "FabricatorRedstoneOn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fabricator_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theboyscraft/procedures/FabricatorRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/blocks"
+    },
+    {
+      "name": "Fabricator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fabricator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_boys_craft/models/item/fabricator.json",
+          "src/main/resources/assets/the_boys_craft/models/block/fabricator.json",
+          "src/main/java/net/mcreator/theboyscraft/block/FabricatorBlock.java",
+          "src/main/resources/assets/the_boys_craft/blockstates/fabricator.json",
+          "src/main/resources/data/the_boys_craft/loot_tables/blocks/fabricator.json",
+          "src/main/java/net/mcreator/theboyscraft/block/entity/FabricatorBlockEntity.java"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [
@@ -63,6 +122,8 @@
   "language_map": {
     "en_us": {
       "item.the_boys_craft.empty_injection": "Injection",
+      "block.the_boys_craft.fabricator": "Fabricator",
+      "item_group.the_boys_craft.the_boys_craft": "The Boys Craft",
       "item.the_boys_craft.temp_injection": "Injection",
       "item.the_boys_craft.comp_injection": "Injection"
     }
@@ -84,10 +145,117 @@
       },
       {
         "name": "Procedure",
-        "children": []
+        "children": [
+          {
+            "name": "on tick",
+            "children": []
+          },
+          {
+            "name": "skills",
+            "children": []
+          },
+          {
+            "name": "blocks",
+            "children": []
+          },
+          {
+            "name": "items",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Clothes",
+        "children": []
+      },
+      {
+        "name": "keybinds",
+        "children": []
+      },
+      {
+        "name": "commands",
+        "children": []
+      },
+      {
+        "name": "animations",
+        "children": [
+          {
+            "name": "player animations",
+            "children": []
+          },
+          {
+            "name": "block animations",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "mobs",
+        "children": [
+          {
+            "name": "skill mobs",
+            "children": []
+          },
+          {
+            "name": "npc mobs",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Armor",
+        "children": []
+      },
+      {
+        "name": "Curios",
+        "children": []
+      },
+      {
+        "name": "Potions",
+        "children": []
+      },
+      {
+        "name": "Dimensions",
+        "children": []
+      },
+      {
+        "name": "Enchants",
+        "children": []
+      },
+      {
+        "name": "structures",
+        "children": []
+      },
+      {
+        "name": "recipes",
+        "children": []
+      },
+      {
+        "name": "villager trade",
+        "children": []
+      },
+      {
+        "name": "music ",
+        "children": []
+      },
+      {
+        "name": "gui and overlays",
+        "children": []
+      },
+      {
+        "name": "particles",
+        "children": []
+      },
+      {
+        "name": "custom procedures",
+        "children": []
+      },
+      {
+        "name": "Advancements",
         "children": []
       }
     ]

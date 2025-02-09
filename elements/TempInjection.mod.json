@@ -8,8 +8,12 @@
     "customProperties": {},
     "states": [],
     "name": "Injection",
-    "rarity": "COMMON",
-    "creativeTabs": [],
+    "rarity": "EPIC",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:TheBoysCraft"
+      }
+    ],
     "stackSize": 1,
     "enchantability": 0,
     "useDuration": 32,

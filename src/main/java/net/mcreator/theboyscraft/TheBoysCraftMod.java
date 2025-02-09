@@ -17,7 +17,10 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.theboyscraft.init.TheBoysCraftModTabs;
 import net.mcreator.theboyscraft.init.TheBoysCraftModItems;
+import net.mcreator.theboyscraft.init.TheBoysCraftModBlocks;
+import net.mcreator.theboyscraft.init.TheBoysCraftModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -39,7 +42,11 @@ public class TheBoysCraftMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		TheBoysCraftModBlocks.REGISTRY.register(bus);
+		TheBoysCraftModBlockEntities.REGISTRY.register(bus);
 		TheBoysCraftModItems.REGISTRY.register(bus);
+
+		TheBoysCraftModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

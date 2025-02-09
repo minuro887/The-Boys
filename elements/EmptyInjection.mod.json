@@ -9,7 +9,11 @@
     "states": [],
     "name": "Injection",
     "rarity": "COMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:TheBoysCraft"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,

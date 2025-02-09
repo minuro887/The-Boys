@@ -1,5 +1,7 @@
 {
   "item.the_boys_craft.empty_injection": "Injection",
+  "block.the_boys_craft.fabricator": "Fabricator",
+  "item_group.the_boys_craft.the_boys_craft": "The Boys Craft",
   "item.the_boys_craft.temp_injection": "Injection",
   "item.the_boys_craft.comp_injection": "Injection"
 }
