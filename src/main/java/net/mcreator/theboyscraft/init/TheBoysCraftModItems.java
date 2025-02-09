@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
+import net.mcreator.theboyscraft.item.TempInjectionItem;
 import net.mcreator.theboyscraft.item.EmptyInjectionItem;
 import net.mcreator.theboyscraft.item.CompInjectionItem;
 import net.mcreator.theboyscraft.TheBoysCraftMod;
@@ -18,6 +19,7 @@ public class TheBoysCraftModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, TheBoysCraftMod.MODID);
 	public static final RegistryObject<Item> EMPTY_INJECTION = REGISTRY.register("empty_injection", () -> new EmptyInjectionItem());
 	public static final RegistryObject<Item> COMP_INJECTION = REGISTRY.register("comp_injection", () -> new CompInjectionItem());
+	public static final RegistryObject<Item> TEMP_INJECTION = REGISTRY.register("temp_injection", () -> new TempInjectionItem());
 	// Start of user code block custom items
 	// End of user code block custom items
 }

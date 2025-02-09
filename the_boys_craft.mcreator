@@ -27,6 +27,20 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "TempInjection",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "temp_injection",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theboyscraft/item/TempInjectionItem.java",
+          "src/main/resources/assets/the_boys_craft/models/item/temp_injection.json"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [
@@ -49,6 +63,7 @@
   "language_map": {
     "en_us": {
       "item.the_boys_craft.empty_injection": "Injection",
+      "item.the_boys_craft.temp_injection": "Injection",
       "item.the_boys_craft.comp_injection": "Injection"
     }
   },

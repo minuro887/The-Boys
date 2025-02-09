@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "temp_v"
+        "0": "comp_v"
       },
       "name": "default"
     }

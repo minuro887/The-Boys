@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "v24_injection",
 	"textures": {
-		"0": "temp_v",
-		"particle": "temp_v"
+		"0": "comp_v",
+		"particle": "comp_v"
 	},
 	"elements": [
 		{

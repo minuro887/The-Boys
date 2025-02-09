@@ -1,7 +1,7 @@
 {
-  "parent": "the_boys_craft:custom/comp_injection",
+  "parent": "the_boys_craft:custom/comp_v_injection",
   "textures": {
-    "1": "the_boys_craft:block/comp_injection",
+    "0": "the_boys_craft:block/comp_v",
     "particle": "the_boys_craft:item/injection_compv"
   }
 }

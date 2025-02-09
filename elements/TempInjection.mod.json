@@ -3,8 +3,8 @@
   "_type": "item",
   "definition": {
     "renderType": 1,
-    "texture": "injection_compv",
-    "customModelName": "comp_v_injection:default",
+    "texture": "injection_v24",
+    "customModelName": "v24_injection:default",
     "customProperties": {},
     "states": [],
     "name": "Injection",
@@ -27,9 +27,9 @@
     "specialInformation": {
       "fixedValue": [
         "",
-        "This injection contains the Compound V",
+        "This injection contains the V24/Temp V",
         "",
-        "§l§5Gives a random power"
+        "§l§5Gives a random power for 20 minutes"
       ]
     },
     "glowCondition": {

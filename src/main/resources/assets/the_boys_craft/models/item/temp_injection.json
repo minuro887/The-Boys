@@ -1,0 +1,7 @@
+{
+  "parent": "the_boys_craft:custom/v24_injection",
+  "textures": {
+    "0": "the_boys_craft:block/temp_v",
+    "particle": "the_boys_craft:item/injection_v24"
+  }
+}
