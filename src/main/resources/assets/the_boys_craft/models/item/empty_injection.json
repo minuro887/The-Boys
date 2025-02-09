@@ -1,0 +1,7 @@
+{
+  "parent": "the_boys_craft:custom/empty_injection",
+  "textures": {
+    "1": "the_boys_craft:block/empty_injection",
+    "particle": "the_boys_craft:item/injection_empty"
+  }
+}

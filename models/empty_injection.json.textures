@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "empty_injection"
+      },
+      "name": "default"
+    }
+  }
+}

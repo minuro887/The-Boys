@@ -1,0 +1,106 @@
+{
+  "mod_elements": [
+    {
+      "name": "EmptyInjection",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_injection",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theboyscraft/item/EmptyInjectionItem.java",
+          "src/main/resources/assets/the_boys_craft/models/item/empty_injection.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CompInjection",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "comp_injection",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_boys_craft/models/item/comp_injection.json",
+          "src/main/java/net/mcreator/theboyscraft/item/CompInjectionItem.java"
+        ]
+      },
+      "path": "~/Items"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Power",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "None"
+    },
+    {
+      "name": "Under_V",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.the_boys_craft.empty_injection": "Injection",
+      "item.the_boys_craft.comp_injection": "Injection"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Weapons",
+        "children": []
+      },
+      {
+        "name": "Procedure",
+        "children": []
+      },
+      {
+        "name": "Clothes",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "the_boys_craft",
+    "modName": "The Boys Craft",
+    "version": "1.0.0",
+    "author": "Gamer, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "kleidersplayerrenderer",
+      "pehkui",
+      "curios_api",
+      "geckolib",
+      "ldlib_api",
+      "playeranimator",
+      "cloth-config",
+      "photon_api"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.theboyscraft"
+  },
+  "mcreatorVersion": 202400232117
+}
