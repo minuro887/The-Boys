@@ -2,15 +2,15 @@
   "_fv": 66,
   "_type": "block",
   "definition": {
-    "texture": "fabricator",
-    "textureTop": "fabricator",
-    "textureLeft": "fabricator",
+    "texture": "fabricatordown",
+    "textureTop": "fabricatorup",
+    "textureLeft": "fabricadorsides",
     "textureFront": "fabricator",
-    "textureRight": "fabricator",
-    "textureBack": "fabricator",
+    "textureRight": "fabricadorsides",
+    "textureBack": "fabricadorsides",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 0,
+    "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -83,7 +83,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "METAL"
     },
     "breakSound": {
       "value": ""

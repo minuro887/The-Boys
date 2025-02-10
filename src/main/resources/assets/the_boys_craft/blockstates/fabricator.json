@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "the_boys_craft:block/fabricator"
+    },
+    "facing=east": {
+      "model": "the_boys_craft:block/fabricator",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_boys_craft:block/fabricator",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_boys_craft:block/fabricator",
+      "y": 270
     }
   }
 }

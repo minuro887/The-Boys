@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "the_boys_craft:block/fabricator",
-    "up": "the_boys_craft:block/fabricator",
+    "down": "the_boys_craft:block/fabricatordown",
+    "up": "the_boys_craft:block/fabricatorup",
     "north": "the_boys_craft:block/fabricator",
-    "east": "the_boys_craft:block/fabricator",
-    "south": "the_boys_craft:block/fabricator",
-    "west": "the_boys_craft:block/fabricator",
-    "particle": "the_boys_craft:block/fabricator"
+    "east": "the_boys_craft:block/fabricadorsides",
+    "south": "the_boys_craft:block/fabricadorsides",
+    "west": "the_boys_craft:block/fabricadorsides",
+    "particle": "the_boys_craft:block/fabricatordown"
   },
   "render_type": "solid"
 }

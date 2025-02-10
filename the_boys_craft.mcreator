@@ -22,8 +22,8 @@
       "registry_name": "comp_injection",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/theboyscraft/item/CompInjectionItem.java",
-          "src/main/resources/assets/the_boys_craft/models/item/comp_injection.json"
+          "src/main/resources/assets/the_boys_craft/models/item/comp_injection.json",
+          "src/main/java/net/mcreator/theboyscraft/item/CompInjectionItem.java"
         ]
       },
       "path": "~/Items"
@@ -36,8 +36,8 @@
       "registry_name": "temp_injection",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_boys_craft/models/item/temp_injection.json",
-          "src/main/java/net/mcreator/theboyscraft/item/TempInjectionItem.java"
+          "src/main/java/net/mcreator/theboyscraft/item/TempInjectionItem.java",
+          "src/main/resources/assets/the_boys_craft/models/item/temp_injection.json"
         ]
       },
       "path": "~/Items"
@@ -91,12 +91,12 @@
       "registry_name": "fabricator",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_boys_craft/models/item/fabricator.json",
-          "src/main/resources/assets/the_boys_craft/models/block/fabricator.json",
-          "src/main/java/net/mcreator/theboyscraft/block/FabricatorBlock.java",
-          "src/main/resources/assets/the_boys_craft/blockstates/fabricator.json",
           "src/main/resources/data/the_boys_craft/loot_tables/blocks/fabricator.json",
-          "src/main/java/net/mcreator/theboyscraft/block/entity/FabricatorBlockEntity.java"
+          "src/main/java/net/mcreator/theboyscraft/block/FabricatorBlock.java",
+          "src/main/resources/assets/the_boys_craft/models/item/fabricator.json",
+          "src/main/java/net/mcreator/theboyscraft/block/entity/FabricatorBlockEntity.java",
+          "src/main/resources/assets/the_boys_craft/models/block/fabricator.json",
+          "src/main/resources/assets/the_boys_craft/blockstates/fabricator.json"
         ]
       },
       "path": "~/Blocks"

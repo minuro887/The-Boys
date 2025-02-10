@@ -4,7 +4,7 @@
   "definition": {
     "name": "The Boys Craft",
     "icon": {
-      "value": "Blocks.CRAFTING_TABLE"
+      "value": "CUSTOM:Fabricator"
     },
     "showSearch": true
   }
